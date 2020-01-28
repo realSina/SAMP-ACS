@@ -4,9 +4,9 @@ Credit:
 *********************************************
 Made by: Sina
 
-** Didn't copied from anywhere!
+** Didn't copy from anywhere!
 
-** It takes my time about 30 minutes to debug and write this!
+** It took my time about 30 minutes to write!
 
 Instagram ID: http://instagram.com/the_sina.x
 
