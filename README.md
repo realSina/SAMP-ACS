@@ -37,7 +37,7 @@ So if a cheater shoot a car in a second, it won't detect that by the way you can
 
 1_ Copy and paste ACS.pwn and ACS.amx in your SAMP Server Directory/filterscripts/
 
-2_ Add a public in your gamemode called OnACSDetected(playerid) for example:
+2_ Add a callback in your gamemode called OnACSDetected(playerid) for example:
 
 ...............................
 
@@ -47,7 +47,11 @@ public OnACSDetected(playerid)
 
 new cheater[50];
 
-format(cheater, sizeof(cheater), "Player %s is car shooting");
+new name[25];
+
+GetPlayerName(playerid, name, sizeof(name));
+
+format(cheater, sizeof(cheater), "Player %s is car shooting", name);
 
 SendClientMessageToAll(-1, cheater);
 
